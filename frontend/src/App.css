@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-image: radial-gradient(circle, #ffdaf1 10%, #f5c8e5 25%, #ebc1df 40%, #e8accd 60%, #d9c6e7 75%, #f5d6ed 100%);
+  height: 100vh; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.heading {
+  text-align: center;
+  position: relative; 
+}
+
+.quicksand-first {
+  color: #ff008c;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3em;
+  margin-bottom: 0; 
+}
+
+.birthstone-bounce-medium {
+  font-family: "Birthstone Bounce", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  position: relative;
+  color: #ffe8e8;
+  top: -40px; 
+  margin-top: 0; 
+}
+
+.bottom-container{
+  background-color: #ffffff2e;
+
+  overflow: scroll;
+
+}
+
+.bottom-container input{
+  color: black;
+  border: solid #ff0080 2px;
+  width: 80%;
+ 
+}
+.bottom-container i{
+  color: #ff0080;
+
+}
+.display-notes{
+  height: 60vh;
+}
+
+.note-container{
+  background-color: #ffebff;
+}
+.note-container p{
+ color: rgb(53, 51, 51);
+ font-size: 1em;
+}
+
+.quicksand-title {
+  color: #ff008c;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4em;
+   
+}
