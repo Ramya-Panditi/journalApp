@@ -95,7 +95,6 @@ func addNew(w http.ResponseWriter, r *http.Request) {
 
 }
 func deleteNotes(w http.ResponseWriter, r *http.Request) {
-
 	fmt.Println("Im in delete")
 	params := mux.Vars(r)
 	taskID := params["id"]
