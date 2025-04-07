@@ -45,7 +45,7 @@ describe('Bottom Component', () => {
     // Check if the loading message is displayed
     expect(screen.getByText('Loading tasks...')).toBeInTheDocument();
   });
-  it('adds a new note when input is provided', async () => {
+  it('adds a new note when input is provided and something else okauyyy idc??????', async () => {
     // Mocking the useTasks hook to simulate no loading state
     const refetchMock = jest.fn();
     (useTasks as jest.Mock).mockReturnValue({
