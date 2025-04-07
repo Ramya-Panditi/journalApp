@@ -3,6 +3,7 @@ import { getData,addNote, deleteNote,updateNote} from "../sync/api";
 import { jounrnalEntry,frontendEntry} from "./query.type";
 
 
+
 export const useTasks = () => {
     const options: UseQueryOptions<jounrnalEntry[], Error> = {
       queryKey: ["entries"],  
